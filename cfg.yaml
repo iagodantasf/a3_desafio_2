@@ -1,0 +1,13 @@
+col_renamer:
+  Doc Ven: id_venda
+  SKU: id_produto
+  Data: data
+  Número de Pedidos: n_pedidos
+  Número de Faturamentos: n_faturamentos
+
+col_types:
+  id_venda: int
+  id_produto: str
+  data: datetime64[ns]
+  n_pedidos: int
+  n_faturamentos: int
