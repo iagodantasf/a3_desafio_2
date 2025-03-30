@@ -11,3 +11,10 @@ col_types:
   data: datetime64[ns]
   n_pedidos: int
   n_faturamentos: int
+
+train_val_test_split:
+  train_size: 0.6
+  val_size: 0.2
+  test_size: 0.2
+
+random_state: 0
